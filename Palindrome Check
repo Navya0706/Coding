@@ -6,3 +6,15 @@ class Solution:
             return True
         else:
             return False    
+
+
+
+
+class Solution:
+	def isPalindrome(self, S):
+		# code here
+		x1=S[::-1]
+		if S==x1:
+		    return 1
+		else:
+		    return 0
