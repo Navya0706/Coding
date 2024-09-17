@@ -1,0 +1,15 @@
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+union=[]
+inter=[]
+for k in a:
+    if k in b and k not in inter:
+        inter.append(k)
+for i in a:
+    if i not in union:
+        union.append(i)
+for j in b:
+    if j not in union:
+        union.append(j)
+print(inter)        
+print(union)        
