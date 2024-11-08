@@ -12,4 +12,4 @@ for j in b:
     if j not in union:
         union.append(j)
 print(inter)        
-print(union)        
+print(union)         
